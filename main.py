@@ -3,7 +3,7 @@ from collections import defaultdict, deque
 import re
 
 class Parser:
-    PATH = "C:\\Users\\曾子泰\\Desktop\\testcode2.txt"  # 文法文件路径
+    PATH = "testcode2.txt"  # 文法文件路径
     START = None  # 开始符号
     VN, VT = set(), set()  # 非终结符号集和终结符号集
     MAP = defaultdict(list)  # key:产生式左边 value:产生式右边(含多条)

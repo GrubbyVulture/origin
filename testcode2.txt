@@ -1,0 +1,4 @@
+S→aH
+H→aMd|d
+M→Ab|ε
+A→aM|e
